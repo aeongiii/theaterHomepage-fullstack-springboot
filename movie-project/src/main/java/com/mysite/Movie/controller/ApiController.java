@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mysite.Movie.model.Movie;
 import com.mysite.Movie.service.MovieService;
 
-@RestController
+@RestController 
 public class ApiController {
 
     private final MovieService movieService;
